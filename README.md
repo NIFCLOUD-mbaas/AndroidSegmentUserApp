@@ -4,20 +4,20 @@
 ![画像01](/readme-img/001.png)
 
 ## 概要
-* [ニフクラ mobile backend](http://mb.cloud.nifty.com/)の『会員管理機能』を利用してAndroidアプリにログイン機能を実装し、ユーザー情報を更新するサンプルプロジェクトです
-* 簡単な操作ですぐに [ニフクラ mobile backend](http://mb.cloud.nifty.com/)の機能を体験いただけます★☆
+* [ニフクラ mobile backend](https://mbaas.nifcloud.com/)の『会員管理機能』を利用してAndroidアプリにログイン機能を実装し、ユーザー情報を更新するサンプルプロジェクトです
+* 簡単な操作ですぐに [ニフクラ mobile backend](https://mbaas.nifcloud.com/)の機能を体験いただけます★☆
 
 ## ニフクラ mobile backendって何？？
 スマートフォンアプリのバックエンド機能（プッシュ通知・データストア・会員管理・ファイルストア・SNS連携・位置情報検索・スクリプト）が**開発不要**、しかも基本**無料**(注1)で使えるクラウドサービス！
 
-注1：詳しくは[こちら](http://mb.cloud.nifty.com/price.htm)をご覧ください
+注1：詳しくは[こちら](https://mbaas.nifcloud.com/price.htm)をご覧ください
 
 ![画像02](/readme-img/002.png)
 
 # 準備
 
 * Android Studio
-* mBaaSの[アカウント作成](http://mb.cloud.nifty.com/signup.htm)
+* mBaaSの[アカウント作成](https://mbaas.nifcloud.com/signup.htm)
 
 ## 動作環境
 * Windows 7 Professional
@@ -28,14 +28,14 @@
 ※上記内容で動作確認をしています
 
 ## 作業の手順
-### 1. [ニフクラ mobile backend](http://mb.cloud.nifty.com/)の会員登録とログイン
+### 1. [ニフクラ mobile backend](https://mbaas.nifcloud.com/)の会員登録とログイン
 
 * 上記リンクから会員登録（無料）をします。登録ができたらログインをすると下図のように「アプリの新規作成」画面が出るのでアプリを作成します
 
 ![画像03](/readme-img/003.png)
 
 * アプリ作成されると下図のような画面になります
-* この２種類のAPIキー（アプリケーションキーとクライアントキー）はAndroidアプリに[ニフクラ mobile backend](http://mb.cloud.nifty.com/)を紐付けるために使用します
+* この２種類のAPIキー（アプリケーションキーとクライアントキー）はAndroidアプリに[ニフクラ mobile backend](https://mbaas.nifcloud.com/)を紐付けるために使用します
 
 ![画像04](/readme-img/004.png)
 
@@ -58,7 +58,7 @@
 ### 4. APIキーの設定
 
 * `MainActivity.java`を編集します
-* 先程[ニフクラ mobile backend](http://mb.cloud.nifty.com/)のダッシュボード上で確認したAPIキーを貼り付けます
+* 先程[ニフクラ mobile backend](https://mbaas.nifcloud.com/)のダッシュボード上で確認したAPIキーを貼り付けます
 
 ![画像07](/readme-img/007.png)
 
@@ -176,7 +176,7 @@ userInfo.fetchInBackground(new FetchCallback<NCMBObject>() {
 データ保存・データ検索・会員管理・プッシュ通知などの機能を実装したい場合には、
 以下のドキュメントもご参考ください。
 
-* [ドキュメント](http://mb.cloud.nifty.com/doc/current/)
-* [ドキュメント・データストア](http://mb.cloud.nifty.com/doc/current/datastore/basic_usage_android.html)
-* [ドキュメント・会員管理](http://mb.cloud.nifty.com/doc/current/user/basic_usage_android.html)
-* [ドキュメント・プッシュ通知](http://mb.cloud.nifty.com/doc/current/push/basic_usage_android.html)
+* [ドキュメント](https://mbaas.nifcloud.com/doc/current/)
+* [ドキュメント・データストア](https://mbaas.nifcloud.com/doc/current/datastore/basic_usage_android.html)
+* [ドキュメント・会員管理](https://mbaas.nifcloud.com/doc/current/user/basic_usage_android.html)
+* [ドキュメント・プッシュ通知](https://mbaas.nifcloud.com/doc/current/push/basic_usage_android.html)
