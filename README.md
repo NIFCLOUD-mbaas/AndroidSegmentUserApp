@@ -21,9 +21,9 @@
 
 ## 動作環境
 * Windows 7 Professional
-* Android Studio 2.1.3
+* Android Studio 3.1
 * Android ver 4x以上
-* Android SDK 2.2.4以上
+* Android SDK 3.0.0以上
 
 ※上記内容で動作確認をしています
 
